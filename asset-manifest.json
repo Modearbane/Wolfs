@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Wolfs/static/css/main.b9f99ba0.css",
+    "main.js": "/Wolfs/static/js/main.bf105c07.js",
+    "static/media/wolf.jpg": "/Wolfs/static/media/wolf.f8879d09241c573e2bee.jpg",
+    "index.html": "/Wolfs/index.html",
+    "main.b9f99ba0.css.map": "/Wolfs/static/css/main.b9f99ba0.css.map",
+    "main.bf105c07.js.map": "/Wolfs/static/js/main.bf105c07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9f99ba0.css",
+    "static/js/main.bf105c07.js"
+  ]
+}
