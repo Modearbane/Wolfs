@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Wolfs/static/css/main.b9f99ba0.css",
-    "main.js": "/Wolfs/static/js/main.bf105c07.js",
+    "main.css": "/Wolfs/static/css/main.b6ccb825.css",
+    "main.js": "/Wolfs/static/js/main.4e72f3cb.js",
+    "static/media/wolf2.webp": "/Wolfs/static/media/wolf2.1018b22a4d3f2f749677.webp",
     "static/media/wolf.jpg": "/Wolfs/static/media/wolf.f8879d09241c573e2bee.jpg",
     "index.html": "/Wolfs/index.html",
-    "main.b9f99ba0.css.map": "/Wolfs/static/css/main.b9f99ba0.css.map",
-    "main.bf105c07.js.map": "/Wolfs/static/js/main.bf105c07.js.map"
+    "main.b6ccb825.css.map": "/Wolfs/static/css/main.b6ccb825.css.map",
+    "main.4e72f3cb.js.map": "/Wolfs/static/js/main.4e72f3cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9f99ba0.css",
-    "static/js/main.bf105c07.js"
+    "static/css/main.b6ccb825.css",
+    "static/js/main.4e72f3cb.js"
   ]
 }
