@@ -1,40 +1,30 @@
-.hero {
-    height: 100vh;
-    background: url("./Images/wolf.jpg") no-repeat center center/cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    padding: 20px;
-  }
-  
-  .hero-content {
-    max-width: 600px;
-  }
-  
-  .hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-  }
-  
-  .hero p {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-  
-  .hero-button {
-    background-color: #ff6600;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  .hero-button:hover {
-    background-color: #cc5500;
-  }
-  
+.header {
+  text-align: center;
+  background: url("./Images/wolf.jpg") no-repeat center;
+  height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #eaeaea;
+  padding: 100px 0;
+  position: relative;
+}
+
+.header-title {
+  font-size: 100px;
+  font-family: "Pacifico", cursive;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background-color: rgba(24, 61, 92, 0.6);
+}

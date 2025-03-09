@@ -9,6 +9,7 @@ import "./Components/Styles/Hero.css";
 import "./Components/Styles/Features.css";
 import ".//Components/Styles/Gallery.css";
 import "./Components/Styles/Footer.css";
+import BackToTop from "./Components/BackToTop";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Features />
       <Gallery />
       <Footer />
+      <BackToTop />
     </div>
   );
 }

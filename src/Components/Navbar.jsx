@@ -4,13 +4,18 @@ import "./Styles/Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo">Wolf</div>
-      <ul className="nav-links">
-        <li><a href="#features">Funkcijos</a></li>
-        <li><a href="#gallery">Galerija</a></li>
-        <li><a href="#contact">Kontaktai</a></li>
-      </ul>
-      <button className="nav-button">Atsisiųsti</button>
+      <div className="container">
+        <div className="navbar-header">
+          <a className="navbar-brand" href="/">
+            Wolf
+          </a>
+        </div>
+        <ul className="nav-links">
+          <li><a href="https://itunes.apple.com/us/app/wolf-2/id1384505386?ls=1&mt=12">Download</a></li>
+          <li><a href="Demo-WolfWebsiteDesignerforMac.html">Feature demos</a></li>
+          <li><a href="ContactUs.html">Support</a></li>
+        </ul>
+      </div>
     </nav>
   );
 };

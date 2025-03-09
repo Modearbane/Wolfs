@@ -1,20 +1,29 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./Styles/Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <motion.footer 
+      className="footer"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+    >
       <div className="footer-content">
-        <p>&copy; 2025 Wolf. Visos teisės saugomos.</p>
-        <nav>
-          <ul>
-            <li><a href="#features">Funkcijos</a></li>
-            <li><a href="#gallery">Galerija</a></li>
-            <li><a href="#">Privatumo politika</a></li>
-          </ul>
-        </nav>
+        <motion.span 
+          className="glyphicon glyphicon-heart-empty" 
+          style={{ fontSize: "3em" }}
+          whileHover={{ scale: 1.2 }}
+        ></motion.span>
+        <p>Proudly made with Wolf</p>
+        <p>
+          <a href="https://www.aidaluu.com/CompareWebsiteDesignSoftware.html">
+            Compare Web Design Apps
+          </a>
+        </p>
       </div>
-    </footer>
+    </motion.footer>
   );
 };
 
