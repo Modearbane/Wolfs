@@ -10,6 +10,8 @@ import "./Components/Styles/Features.css";
 import ".//Components/Styles/Gallery.css";
 import "./Components/Styles/Footer.css";
 import BackToTop from "./Components/BackToTop";
+import "../src/app.css"
+
 
 function App() {
   return (

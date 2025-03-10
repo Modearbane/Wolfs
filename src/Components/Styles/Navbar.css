@@ -1,29 +1,42 @@
 .navbar {
-  background-color: #000;
-  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 15px 30px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  z-index: 1000;
 }
 
-.navbar .navbar-brand {
-  color: #fff;
-  font-size: 24px;
-  font-family: "Titillium Web", sans-serif;
+.nav-container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 15px;
 }
 
+.nav-logo img {
+  height: 40px;
+  width: auto;
+}
+
 .nav-links a {
-  color: #fff;
-  font-size: 18px;
   text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
 .nav-links a:hover {
-  color: #144354;
+  color: black;
 }
