@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Wolfs/static/css/main.b86daadb.css",
-    "main.js": "/Wolfs/static/js/main.f3f6c6c8.js",
+    "main.css": "/Wolfs/static/css/main.b2ade853.css",
+    "main.js": "/Wolfs/static/js/main.86fb634b.js",
     "reactPlayerYouTube.js": "/Wolfs/static/js/reactPlayerYouTube.4c382a0f.chunk.js",
     "reactPlayerSoundCloud.js": "/Wolfs/static/js/reactPlayerSoundCloud.f3aeba7e.chunk.js",
     "reactPlayerVimeo.js": "/Wolfs/static/js/reactPlayerVimeo.5b69c9ea.chunk.js",
@@ -16,15 +16,15 @@
     "reactPlayerKaltura.js": "/Wolfs/static/js/reactPlayerKaltura.17f391fe.chunk.js",
     "reactPlayerFilePlayer.js": "/Wolfs/static/js/reactPlayerFilePlayer.c8ae9aa2.chunk.js",
     "reactPlayerPreview.js": "/Wolfs/static/js/reactPlayerPreview.772c5222.chunk.js",
+    "static/media/wolf2video.mp4": "/Wolfs/static/media/wolf2video.6f09b641615acbc238c9.mp4",
     "static/media/wolf7.jpg": "/Wolfs/static/media/wolf7.dea514f5046480fd2b2e.jpg",
     "static/media/wolf4.jpg": "/Wolfs/static/media/wolf4.0003d858a55eee109174.jpg",
     "static/media/wolf9.jpg": "/Wolfs/static/media/wolf9.3a552ce9cdc28c007822.jpg",
     "static/media/wolf5.jpg": "/Wolfs/static/media/wolf5.f6b7c4efd53dee757a92.jpg",
     "static/media/wolf8.jpg": "/Wolfs/static/media/wolf8.4a7f8bb789f3a7c65f74.jpg",
-    "static/media/svgWolf.svg": "/Wolfs/static/media/svgWolf.96538044c0ff1a50e5eb62451ffafb7f.svg",
     "index.html": "/Wolfs/index.html",
-    "main.b86daadb.css.map": "/Wolfs/static/css/main.b86daadb.css.map",
-    "main.f3f6c6c8.js.map": "/Wolfs/static/js/main.f3f6c6c8.js.map",
+    "main.b2ade853.css.map": "/Wolfs/static/css/main.b2ade853.css.map",
+    "main.86fb634b.js.map": "/Wolfs/static/js/main.86fb634b.js.map",
     "reactPlayerYouTube.4c382a0f.chunk.js.map": "/Wolfs/static/js/reactPlayerYouTube.4c382a0f.chunk.js.map",
     "reactPlayerSoundCloud.f3aeba7e.chunk.js.map": "/Wolfs/static/js/reactPlayerSoundCloud.f3aeba7e.chunk.js.map",
     "reactPlayerVimeo.5b69c9ea.chunk.js.map": "/Wolfs/static/js/reactPlayerVimeo.5b69c9ea.chunk.js.map",
@@ -41,7 +41,7 @@
     "reactPlayerPreview.772c5222.chunk.js.map": "/Wolfs/static/js/reactPlayerPreview.772c5222.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b86daadb.css",
-    "static/js/main.f3f6c6c8.js"
+    "static/css/main.b2ade853.css",
+    "static/js/main.86fb634b.js"
   ]
 }
