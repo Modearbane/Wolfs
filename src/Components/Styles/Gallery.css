@@ -32,7 +32,6 @@
   box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.4);
 }
 
-
 .gallery .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -40,12 +39,24 @@
   max-width: 1000px;
 }
 
-.img1 { background-image: url("./Public/wolf4.jpg"); }
-.img2 { background-image: url("./Public/wolf5.jpg"); }
-.img3 { background-image: url("./Public/wolf6.jpg"); }
-.img4 { background-image: url("./Public/wolf7.jpg"); }
-.img5 { background-image: url("./Public/wolf8.jpg"); }
-.img6 { background-image: url("./Public/wolf9.jpg"); }
+.img1 {
+  background-image: url("./Public/wolf4.jpg");
+}
+.img2 {
+  background-image: url("./Public/wolf5.jpg");
+}
+.img3 {
+  background-image: url("./Public/wolf6.jpg");
+}
+.img4 {
+  background-image: url("./Public/wolf7.jpg");
+}
+.img5 {
+  background-image: url("./Public/wolf8.jpg");
+}
+.img6 {
+  background-image: url("./Public/wolf9.jpg");
+}
 
 /* Modal */
 .modal {
@@ -72,12 +83,24 @@
 }
 
 /* Modal fono nuotraukos */
-.modal-content.img1 { background-image: url("./Public/wolf4.jpg"); }
-.modal-content.img2 { background-image: url("./Public/wolf5.jpg"); }
-.modal-content.img3 { background-image: url("./Public/wolf6.jpg"); }
-.modal-content.img4 { background-image: url("./Public/wolf7.jpg"); }
-.modal-content.img5 { background-image: url("./Public/wolf8.jpg"); }
-.modal-content.img6 { background-image: url("./Public/wolf9.jpg"); }
+.modal-content.img1 {
+  background-image: url("./Public/wolf4.jpg");
+}
+.modal-content.img2 {
+  background-image: url("./Public/wolf5.jpg");
+}
+.modal-content.img3 {
+  background-image: url("./Public/wolf6.jpg");
+}
+.modal-content.img4 {
+  background-image: url("./Public/wolf7.jpg");
+}
+.modal-content.img5 {
+  background-image: url("./Public/wolf8.jpg");
+}
+.modal-content.img6 {
+  background-image: url("./Public/wolf9.jpg");
+}
 
 .close {
   position: absolute;
@@ -93,14 +116,34 @@
   transform: scale(1.2);
 }
 
+@media (max-width: 1024px) {
+  .gallery .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
-  .gallery-item {
-    width: 45%;
+  .gallery .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modal-content {
+    max-width: 90%;
+    max-height: 70%;
   }
 }
 
 @media (max-width: 480px) {
+  .gallery .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .gallery-item {
-    width: 90%;
+    height: 180px;
+  }
+
+  .modal-content {
+    max-width: 95%;
+    max-height: 60%;
   }
 }

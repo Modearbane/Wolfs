@@ -40,7 +40,7 @@ const Gallery = () => {
             &times;
           </motion.span>
           <motion.div 
-            className={`modal-content ${modalImage}`} // Naudoja tą pačią klasę
+            className={`modal-content ${modalImage}`}
             initial={{ scale: 0.8 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.3 }}
