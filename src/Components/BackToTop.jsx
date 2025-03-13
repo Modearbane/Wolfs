@@ -1,33 +1,20 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import React from "react";
 import "./Styles/BackToTop.css";
+// import arrow from "./Styles/Public/arrow.png"
 
 const BackToTop = () => {
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const toggleVisibility = () => {
-      if (window.scrollY > 300) {
-        setVisible(true);
-      } else {
-        setVisible(false);
-      }
-    };
-
-    window.addEventListener("scroll", toggleVisibility);
-    return () => window.removeEventListener("scroll", toggleVisibility);
-  }, []);
+  const scrollToTop = () => {
+    if (document.documentElement.scrollTop > 0) {
+      document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+    } else if (document.body.scrollTop > 0) {
+      document.body.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
 
   return (
-    visible && (
-      <motion.button 
-        className="back-to-top"
-        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        whileHover={{ scale: 1.1 }}
-      >
-        ⬆
-      </motion.button>
-    )
+    <button className="back-to-top" onClick={scrollToTop}>
+      🢁
+    </button>
   );
 };
 

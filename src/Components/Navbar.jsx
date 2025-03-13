@@ -6,15 +6,8 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <ul className="nav-links">
-          <li>
-            <a href="#download">About</a>
-          </li>
-          <li>
-            <a href="#features">Feature</a>
-          </li>
-          <li>
-            <a href="#support">Support</a>
-          </li>
+          <li><a href="#login">Login</a></li>
+          <li><a href="#register">Register</a></li>
         </ul>
       </div>
     </nav>

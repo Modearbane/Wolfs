@@ -1,0 +1,22 @@
+.music-container {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .music-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .music-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
