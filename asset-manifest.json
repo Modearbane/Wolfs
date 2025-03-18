@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Wolfs/static/css/main.9b704406.css",
-    "main.js": "/Wolfs/static/js/main.3e43050c.js",
+    "main.js": "/Wolfs/static/js/main.9487ffc5.js",
     "reactPlayerYouTube.js": "/Wolfs/static/js/reactPlayerYouTube.4c382a0f.chunk.js",
     "reactPlayerSoundCloud.js": "/Wolfs/static/js/reactPlayerSoundCloud.f3aeba7e.chunk.js",
     "reactPlayerVimeo.js": "/Wolfs/static/js/reactPlayerVimeo.5b69c9ea.chunk.js",
@@ -25,7 +25,7 @@
     "static/media/wolf8.jpg": "/Wolfs/static/media/wolf8.4a7f8bb789f3a7c65f74.jpg",
     "index.html": "/Wolfs/index.html",
     "main.9b704406.css.map": "/Wolfs/static/css/main.9b704406.css.map",
-    "main.3e43050c.js.map": "/Wolfs/static/js/main.3e43050c.js.map",
+    "main.9487ffc5.js.map": "/Wolfs/static/js/main.9487ffc5.js.map",
     "reactPlayerYouTube.4c382a0f.chunk.js.map": "/Wolfs/static/js/reactPlayerYouTube.4c382a0f.chunk.js.map",
     "reactPlayerSoundCloud.f3aeba7e.chunk.js.map": "/Wolfs/static/js/reactPlayerSoundCloud.f3aeba7e.chunk.js.map",
     "reactPlayerVimeo.5b69c9ea.chunk.js.map": "/Wolfs/static/js/reactPlayerVimeo.5b69c9ea.chunk.js.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.9b704406.css",
-    "static/js/main.3e43050c.js"
+    "static/js/main.9487ffc5.js"
   ]
 }
