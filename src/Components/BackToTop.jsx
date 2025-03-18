@@ -1,6 +1,6 @@
 import React from "react";
 import "./Styles/BackToTop.css";
-// import arrow from "./Styles/Public/arrow.png"
+import { FaArrowUp } from "react-icons/fa";
 
 const BackToTop = () => {
   const scrollToTop = () => {
@@ -13,8 +13,8 @@ const BackToTop = () => {
 
   return (
     <button className="back-to-top" onClick={scrollToTop}>
-      🢁
-    </button>
+    <FaArrowUp />
+  </button>
   );
 };
 
