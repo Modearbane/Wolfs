@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import "./Styles/Gallery.css";
+import "../Components/Styles/Gallery.css";
 
 const images = ["img1", "img2", "img3", "img4", "img5", "img6"];
 

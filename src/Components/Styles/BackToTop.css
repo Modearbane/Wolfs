@@ -1,18 +1,24 @@
 .back-to-top {
   position: fixed;
-  bottom: 10px;
+  bottom: 20px;
   right: 20px;
   background: red;
-  border: none;
   color: white;
-  font-size: 24px;
+  border: none;
   padding: 12px;
   border-radius: 50%;
+  font-size: 20px;
   cursor: pointer;
-  transition: 0.3s;
-  z-index: 9999;
+  transition: background 0.3s ease;
 }
 
 .back-to-top:hover {
-  background: rgba(3, 182, 18, 0.5);
+  background: green;
+}
+
+@media (max-width: 480px) {
+  .back-to-top {
+    padding: 8px;
+    font-size: 16px;
+  }
 }

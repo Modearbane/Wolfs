@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "./Styles/Features.css";
+import "../Components/Styles/Features.css";
 
 const features = [
   {

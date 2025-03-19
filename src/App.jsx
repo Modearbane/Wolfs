@@ -1,34 +1,39 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import Features from "./Components/Features";
-import Gallery from "./Components/Gallery";
-import Footer from "./Components/Footer";
-import BackToTop from "./Components/BackToTop";
 import Sidebar from "./Components/Sidebar";
+import BackToTop from "./Components/BackToTop";
 import BackgroundMusic from "./Components/Backgroundmusic";
-import "./Components/Styles/Navbar.css";
-import "./Components/Styles/Hero.css";
-import "./Components/Styles/Features.css";
-import ".//Components/Styles/Gallery.css";
-import "./Components/Styles/Footer.css";
-import "../src/app.css"
-
-
-
+import Footer from "./Pages/Footer";
+import Hero from "./Pages/Hero";  // ✅ Patikriname, ar kelias teisingas
+import About from "./Pages/About";
+import Features from "./Pages/Features";
+import Gallery from "./Pages/Gallery";
+import Contact from "./Pages/Contact";
+import Login from "./Pages/LoginPage";
+import Register from "./Pages/RegisterPage";
+import "./app.css";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Hero />
-      <Features />
-      <Gallery />
-      <Footer />
-      <BackToTop />
       <Sidebar />
+      <BackToTop />
       <BackgroundMusic />
-    </div>
+
+      <Routes>
+        <Route path="/" element={<Hero />} /> {/* ✅ Hero kaip pagrindinis puslapis */}
+        <Route path="/about" element={<About />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+
+      <Footer />
+    </Router>
   );
 }
 
